@@ -30,7 +30,7 @@ function PizzaMenu({ user }) {
             console.log('Pizza added to cart:', response.data);
             alert('Pizza dodana do Koszyka');
         } catch (error) {
-            console.error('Error adding pizza to cart:', error);
+            console.error('Erroradding pizza to cart:', error);
             alert('Nie można dodać Pizzy do koszyka');
         }
     };
