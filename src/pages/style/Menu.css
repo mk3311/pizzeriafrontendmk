@@ -1,0 +1,15 @@
+/* MenuPage.css */
+.menu-table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: #f2f2f2;
+}
